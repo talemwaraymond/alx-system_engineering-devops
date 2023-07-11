@@ -1,0 +1,3 @@
+#!/bin/bash
+printf "%x\n" $DECIMAL
+echo "$((10#$BINARY))16"
