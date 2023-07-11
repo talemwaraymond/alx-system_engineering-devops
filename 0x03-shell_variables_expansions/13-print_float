@@ -1,0 +1,2 @@
+#!/bin/bashh
+printf'%.2f\n' $NUM
