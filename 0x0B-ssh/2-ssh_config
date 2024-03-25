@@ -1,0 +1,38 @@
+ 18 include/etec/ssh/ssh_config.d/*.conf
+ 19 Host *
+ 20 #   ForwardAgent no
+ 21 #   ForwardX11 no
+ 22 #   ForwardX11Trusted yes
+ 23 #   RhostsRSAAuthentication no
+ 24 #   RSAAuthentication yes
+ 25     PasswordAuthentication no
+ 26 #   HostbasedAuthentication no
+ 27 #   GSSAPIAuthentication no
+ 28 #   GSSAPIDelegateCredentials no
+ 29 #   GSSAPIKeyExchange no
+ 30 #   GSSAPITrustDNS no
+ 31 #   BatchMode no
+ 32 #   CheckHostIP yes
+ 33 #   AddressFamily any
+ 34 #   ConnectTimeout 0
+ 35 #   StrictHostKeyChecking ask
+ 36 #   IdentityFile ~/.ssh/identity
+ 37     IdentityFile ~/.ssh/school
+ 38 #   IdentityFile ~/.ssh/id_rsa
+ 39 #   IdentityFile ~/.ssh/id_dsa
+ 40 #   Port 22
+ 41 #   Protocol 2,1
+ 42 #   Cipher 3des
+ 43 #   Ciphers aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc
+ 44 #   MACs hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160
+ 45 #   EscapeChar ~
+ 46 #   Tunnel no
+ 47 #   TunnelDevice any:any
+ 48 #   PermitLocalCommand no
+ 49 #   VisualHostKey no
+ 50 #   ProxyCommand ssh -q -W %h:%p gateway.example.com
+ 51 #   RekeyLimit 1G 1h
+ 52     SendEnv LANG LC_*
+ 53     HashKnownHosts yes
+ 54     GSSAPIAuthentication yes
+ 55     GSSAPIDelegateCredentials yes
