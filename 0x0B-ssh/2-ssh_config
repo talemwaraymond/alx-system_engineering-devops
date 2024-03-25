@@ -1,4 +1,3 @@
- 18 include/etec/ssh/ssh_config.d/*.conf
  19 Host *
  20 #   ForwardAgent no
  21 #   ForwardX11 no
